@@ -30,9 +30,6 @@ public:
 };
 
 int main() {
-    queue<int> q;
-    q.push(5);
-    q.front();
 
     return 0;
 }
