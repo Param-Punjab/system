@@ -30,6 +30,13 @@ public:
 };
 
 int main() {
+    vector<vector<int>> adj;
+    int n;
+    int s;
+
+    queue<int> q;
+    vector<bool> used(n);
+    vector<int> d(n), p(n);
 
     return 0;
 }
