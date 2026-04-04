@@ -1,0 +1,4 @@
+if (visited[node]==F):
+    1. Print(node)
+    2. Visited[node]=T
+    3. Node naoubher added into queue
