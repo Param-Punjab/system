@@ -44,6 +44,12 @@ Graph(int n) { nodes = n;
         }
     }
 
+    void BFS_T2() {
+        queue<int> que;
+        int s = 0;
+        cout << adj[0][0];
+
+    }
 
 };
 

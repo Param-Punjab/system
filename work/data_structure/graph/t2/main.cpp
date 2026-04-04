@@ -10,7 +10,7 @@ public:
   graph(int n) {
     nodes = n;
     g.resize(nodes);
-    cout << "Graph got created with nodes: " << 0 << " - " << nodes - 1 << endl;
+    cout << "Graph got created with nodes: " << 0 << " - " << nodes - 1 << endl << endl;
   }
 
   void connection(int s, int d) {
@@ -21,13 +21,13 @@ public:
 
   void print() {
     int size;
-    cout << "Displaying Graph" << endl;
+    cout << endl << "Displaying Graph" << endl;
     for (int i = 0; i < nodes; i++) {
         size = g[i].size();
-        cout << i << " -> "; 
+        cout << i << " -> ";
         for (int j = 0; j < size; j++) {
-            cout << g[i][j] << ", "; 
-        } 
+            cout << g[i][j] << " ";
+        }
         cout << endl;
     }
   }
