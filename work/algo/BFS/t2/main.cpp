@@ -1,0 +1,66 @@
+#include <iostream>
+#include <queue>
+#include <vector>
+using namespace std;
+
+class graph {
+public:
+  vector<vector<int>> g;
+  int nodes;
+
+  graph(int n) {
+    nodes = n;
+    g.resize(nodes);
+    cout << "Graph got created with nodes: " << 0 << " - " << nodes - 1 << endl
+         << endl;
+  }
+
+  void connection(int s, int d) {
+    g[s].push_back(d);
+    g[d].push_back(s);
+    cout << "Connection got established between nodes: " << s << " and " << d
+         << endl;
+  }
+
+  void print() {
+    int size;
+    cout << endl << "Displaying Graph" << endl;
+    for (int i = 0; i < nodes; i++) {
+      size = g[i].size();
+      cout << i << " -> ";
+      for (int j = 0; j < size; j++) {
+        cout << g[i][j] << " ";
+      }
+      cout << endl;
+    }
+  }
+
+  void BFS() {
+    queue<int> que;
+    int s = 0;
+    bool visited_arr[nodes] = {0};
+    for (int i = 0; i < nodes; i++) {
+      if (!que.empty()) {
+        s = que.front();
+        que.pop();
+      }
+      for (int j = 0; j < g.size(); j++) {
+        if (visited_arr[s] == false && 0) {
+          cout << g[i][s] << " ";
+          cout << g[i][j] << " ";
+          que.push(g[i][s]);
+          visited_arr[g[i][s]] = 1;
+        }
+      }
+    }
+  }
+};
+
+int main() {
+  cout << " --- Graph Implementation --- " << endl;
+  graph g1(3);
+  g1.connection(0, 1);
+  g1.connection(0, 2);
+  g1.print();
+  return 0;
+}
