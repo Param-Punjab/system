@@ -73,13 +73,18 @@ public:
       s = que.front();
       que.pop();
       if (arr[s] != true) {
+
         // Print node
         cout << s << " ";
+
         // Visited[node] = True
         arr[s] = true;
+
         // Node naoubher added into queue
         for (int i = 0; i < g[s].size(); i++) {
-          if (!arr[g[s][i]]) {que.push(g[s][i]);}
+          if (!arr[g[s][i]]) {
+            que.push(g[s][i]);
+          }
 
         }
       }
