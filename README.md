@@ -1,7 +1,7 @@
 # Codeforces Journey — param-punjab
 
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=flat-square&logo=c%2B%2B)
-![Platform](https://img.shields.io/badge/Codeforces-param--punjab-1F8ACB?style=flat-square)
+![Platform](https://img.shields.io/badge/Codeforces-matharoo-1F8ACB?style=flat-square)
 ![Started](https://img.shields.io/badge/Started-April%202026-orange?style=flat-square)
 
 Started April 2026. Solving in C++. Everything built from scratch — no copy-paste, no shortcuts.
