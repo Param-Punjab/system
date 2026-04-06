@@ -1,24 +1,34 @@
-# Codeforces Journey — param-punjab
+# system — param-punjab
 
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=flat-square&logo=c%2B%2B)
-![Platform](https://img.shields.io/badge/Codeforces-matharoo-1F8ACB?style=flat-square)
-![Started](https://img.shields.io/badge/Started-April%202026-orange?style=flat-square)
+![OS](https://img.shields.io/badge/OS-Kali%20WSL2-557C94?style=flat-square&logo=linux)
+![Editor](https://img.shields.io/badge/Editor-Neovim-57A143?style=flat-square&logo=neovim)
+![Started](https://img.shields.io/badge/Started-March%202026-orange?style=flat-square)
 
-Started April 2026. Solving in C++. Everything built from scratch — no copy-paste, no shortcuts.
+This is my personal development repo. Everything I build, learn, and work through — logged raw, committed honestly.
 
-Every problem, every bug, every fix is committed with a live log.
-
-> Tier-3 college. First-principles learning. Built in Neovim at 3am.
-
----
-
-### Structure
-
-```
-problems/     → one folder per problem, solution in main.cpp
-live_report/  → raw daily log of what I did and when
-```
+B.Tech CSE · GNDEC, Ludhiana · Systems & Low-Level C++
 
 ---
 
-### Profile → [matharoo](https://codeforces.com/profile/matharoo)
+### What's Inside
+
+```
+work/data_structure/   → C++ implementations built from scratch
+work/algo/             → BFS, DFS and more coming
+live_report/      → daily raw log — what I did, when, and how it went
+```
+
+---
+
+### Philosophy
+
+Every implementation starts from a blank file.
+Every bug gets debugged before asking anyone.
+Every session gets logged with a timestamp.
+
+> The log doesn't lie — it shows the struggle, not just the result.
+
+---
+
+### Codeforces → [codeforces.com/profile/matharoo](https://codeforces.com/profile/matharoo)
