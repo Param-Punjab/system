@@ -29,3 +29,9 @@
 [14:30] : Finally I made this, I created BFS - Breadth first search I am feeling very good after doing that now it's time
         : DFS - Depth First Search I am starting right now.
 [15:23] : Depth First Search got done, it's litterly easy one I just change the data structure from queue to stack.
+
+## 08-04-2026
+[13:29] : Todays topics to be cover : Selection Sort, Insertion Sort = (1 day), Merge Sort, Quick sort = (2-3 days).
+
+## 11-04-2026
+[11:49] : selection sort got completed.
