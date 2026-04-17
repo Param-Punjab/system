@@ -1,25 +1,24 @@
 #include <iostream>
-#include <vector>
 
-void print(std::vector<int> arr) {
-  for (int i = 0; i < arr.size(); i++) {
-    std::cout << arr[i] << " ";
+void insertionSort(int *A, int n) {
+
+}
+
+void printArray(int *A, int n) {
+  for (int i = 0; i < n; i++) {
+    std::cout << A[i] << " ";
   }
 }
 
 int main() {
-  std::vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
+  // 4, 5, 6, 7, 3, 2
 
+  int n = 6;
+  int A[] = {12, 57, 65, 7, 23, 9};
 
-  for (int i = 0; i < arr.size(); i++) {
-    for (int j = i+1; j < arr.size(); j++) {
-      if (arr[i] > arr[j]) {
-        std::swap(arr[i], arr[j]);
-      }
-    }
-  }
+  printArray(A, n);
 
-  print(arr);
+  // insertionSort(A, n);
 
   return 0;
 }

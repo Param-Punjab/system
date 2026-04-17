@@ -35,3 +35,12 @@
 
 ## 11-04-2026
 [11:49] : selection sort got completed.
+
+[11:53] : Started Insertion short
+
+## 17-04-2026
+[18:00] : Started Insertion Sort - build from scratch
+
+[19:45] : seems like completed.
+
+[21:16] : finally it's working properlly and test {2, 8, 6, 1, 0}
